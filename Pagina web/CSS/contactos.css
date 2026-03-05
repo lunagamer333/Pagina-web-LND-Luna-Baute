@@ -1,0 +1,192 @@
+
+.contacto {
+    padding: 50px 5%;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 4px;
+    margin-bottom: 50px;
+    position: relative;
+    text-shadow: 0px 0px 20px;
+}
+
+
+.contenido {
+    display: flex;
+    gap: 60px;
+}
+
+.izq {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.formulario {
+    flex: 1;
+}
+
+.titulo{
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.texto{
+    width: 700px;
+    font-size: 12px;
+}
+.texto a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.texto a:hover{
+    color: #d68b2c;
+}
+
+.primero{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+h3{
+    font-size: 20px;
+    margin: 20px 0;
+    text-decoration: underline;
+}
+
+.social{
+    text-decoration: underline;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contenedor-redes{
+    background: linear-gradient(45deg, rgb(255, 166, 12), rgb(31, 31, 31)); 
+    border-radius: 50%;
+    border: 2px solid rgb(143, 93, 0);
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    position: relative;
+    left: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icono img{
+    width: 30px;
+    height: 30px;
+}
+
+.icono {
+    position: absolute;
+}
+.twitter, .instag, .whatsapp, .telegram, .faceb, .logo2 {
+    transition: transform 1s linear;
+}
+
+
+.twitter:hover, .instag:hover, .whatsapp:hover, .telegram:hover, .faceb:hover, .logo2:hover {
+    transform: rotate(360deg);
+}
+
+.twitter   { 
+    top: 5px; 
+    left: 40%; 
+    
+}
+
+.instag { 
+    top: 60px; 
+    right: 10px; 
+}
+
+.whatsapp  { 
+    top: 60px; 
+    left: 10px; 
+}
+
+.telegram  { 
+    bottom: 20px; 
+    left: 35px; 
+}
+
+.faceb  { 
+    bottom: 20px; 
+    right: 35px; 
+}
+
+.logo2 img {
+    width: 90px;
+    height: 90px;
+}
+
+
+/* Formulario */
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulario input, .formulario select, .formulario textarea {
+    padding: 12px;
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0.234);
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+}
+
+.formulario textarea {
+    height: 150px;
+    resize: none;
+}
+
+.formulario select {
+    background-color: white;
+    border: 2px solid rgb(165, 138, 42);
+    color: rgb(165, 138, 42);
+}
+
+.check {
+    font-size: 14px;
+}
+
+.check span {
+    color: blue;
+}
+
+
+.formulario button {
+    background: #a35a1f;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.formulario button:hover {
+    background: #000000;
+}
+
+input:required:valid,
+textarea:required:valid,
+select:required:valid {
+    background-color: white;
+    border-color: #a56522;
+}
+

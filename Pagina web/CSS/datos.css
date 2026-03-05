@@ -1,0 +1,96 @@
+.footer{
+    background:#1c1f26;
+    color:white;
+    padding:60px 0;
+}
+
+.piePagina{
+    display:flex;
+    gap:40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* columnas */
+
+.columna h4, .columna-redes h4{
+    margin-bottom:20px;
+
+}
+
+.columna h4::after, .columna-redes h4::after{
+    content:"";
+    display:block;
+    width:250px;
+    height:3px;
+    background:#d68b2c;
+    margin-top:8px;
+}
+
+.columna ul, .columna-redes ul{
+    list-style:none;
+}
+
+.columna li, .columna-redes li{
+    margin-bottom:10px;
+}
+
+.columna a, .columna-redes a{
+    text-decoration:none;
+    color:white;
+    font-size:14px;
+    transition:0.3s;
+}
+
+.columna a:hover{
+    color:#d68b2c;
+}
+
+.columna-redes a:hover{
+    color:#ffffff;
+}
+
+/* redes sociales */
+
+.redes {
+    display: flex;
+    gap: 15px;
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #3a3a3a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    }
+
+.icon:hover svg{
+        color: white;
+    }
+
+.facebook:hover {
+    background: #1877f2;
+    }
+
+.instagram:hover {
+    background: radial-gradient(circle at 30% 107%, 
+                #fdf497 0%, #fd5949 45%, 
+                #d6249f 60%, #285AEB 90%);
+    }
+
+.x:hover {
+    color: white;
+    background: #000;
+    }
+
+.linkedin:hover {
+    background: #0077b5;
+    }
+
+.icon:hover {
+    transform: scale(1.1);
+    }

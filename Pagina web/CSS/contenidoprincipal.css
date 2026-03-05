@@ -1,0 +1,188 @@
+.hero{
+    padding:40px 0;
+    margin: 0 5%;
+}
+
+/* base principal del carrusel */
+
+.carrusel{
+    background-color: #1c1f26;
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
+
+.descripcion{
+    color:white;
+    padding:40px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.descripcion h2{
+    font-size:28px;
+    margin:10px;
+    color:#d68b2c;
+}
+
+.corta{
+    font-size:2rem;
+    color: #636465;
+    font-weight:bold;
+    margin: 10px;
+}
+
+.descripcion p{
+    font-size:14px;
+    margin:10px;
+}
+
+.imagen img{
+    width:60%;
+    height:60%;
+    display: flex;
+    justify-self: end;
+}
+
+/* botones del carrusel */
+
+.btn-cart{
+    background:black;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+    width:160px;
+}
+
+
+
+.btn-cart:hover{
+    color:#d68b2c;
+    box-shadow: 0 0 10px 5px #d68b2c;
+    animation: pulso 2s infinite;
+}
+
+.arrow-btn-izq{
+    background:#d68b2c;
+    border: #f2f2f2 solid 2px;
+    border-radius: 50px;
+    color:white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    font-weight:bold;
+    cursor:pointer;
+    position: absolute;
+    left: 45px;
+    transition:0.5s;
+}
+
+.arrow-btn-izq:hover{
+    background:#ffffff;
+    color:#d68b2c;
+    border: #d68b2c solid 2px;
+    box-shadow: 0 0 15px 5px #d68b2c;
+}
+
+.arrow-btn-der{
+    background:#d68b2c;
+    border: #f2f2f2 solid 2px;
+    border-radius: 50px;
+    color:white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    font-weight:bold;
+    cursor:pointer;
+    position: absolute;
+    right: 45px;
+    transition:0.5s;
+}
+
+.arrow-btn-der:hover{
+    background:#ffffff;
+    color:#d68b2c;
+    border: #d68b2c solid 2px;
+    box-shadow: 0 0 15px 5px #d68b2c;
+}
+
+/* informacion*/
+
+.info{
+    padding:70px 0;
+    margin: 0 5%;
+}
+
+.caja-info{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+
+}
+
+.info-text h2{
+    font-size:28px;
+    margin-bottom:15px;
+    color:#d68b2c;
+}
+.info-text{
+    width: 600px;
+}
+.info-text p{
+    font-size:14px;
+    line-height:1.5;
+    margin-bottom:25px;
+}
+
+.info-text .sub{
+    font-weight:bold;
+        margin-bottom:15px;
+}
+
+.btn-more{
+    background:black;
+    color:white;
+    padding:12px 25px;
+    cursor:pointer;
+    transition:0.3s;
+    position: relative;
+    left: 65%;
+}
+
+.btn-more:hover{
+    color:#d68b2c;
+    box-shadow: 0 0 10px 5px #d68b2c;
+    animation: pulso 2s infinite;
+}
+
+/* imágenes */
+
+.info-imagenes{
+    display:flex;
+    gap:20px;
+    background-color: transparent;
+    border: none;
+}
+
+.carta{
+    width: 250px;
+    height: 250px;
+    overflow: hidden; 
+}
+
+.carta img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s linear;
+}
+
+.carta:hover img{
+    transform: scale(1.5);
+}

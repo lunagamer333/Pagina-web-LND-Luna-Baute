@@ -1,0 +1,94 @@
+.header{
+    background:#1c1f26;
+    overflow:hidden;
+}
+
+.barraSuperrior{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    height:80px;
+}
+
+/* Logo + Nombre */
+
+.logo img{
+    width:40px;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo p{
+    display: block;
+    font-size:26px;
+    color:#d68b2c;
+    position: static;
+    top: 25px;
+    left: 50px;
+}
+
+.logo p span{
+    color:#ffffff;
+    font-weight:bold;
+}
+
+/* Menu */
+.menu{
+    list-style:none;
+    display:flex;
+    gap:50px;
+    flex-wrap: wrap;
+}
+
+.menu a{
+    text-decoration:none;
+    color:white;
+    font-weight:600;
+    font-size:15px;
+    letter-spacing:1px;
+    transition:0.5s;
+    padding:10px 15px;
+}
+
+.menu a:hover{
+    color:#d68b2c;
+    background-color: white;
+    box-shadow: 0 0 5px 5px #e8e7e7;
+}
+
+/* Botones */
+
+.auth-buttons{
+    display:flex;
+    gap:15px;
+}
+
+.btn-login, .btn-register{
+    padding:8px 15px;
+    border-radius:5px;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:600;
+    transition:0.5s;
+}
+
+.btn-login{
+    border:1px solid #d68b2c;
+    color:#d68b2c;
+}
+
+.btn-register{
+    background:white;
+    color:#d68b2c;
+}
+
+.btn-login:hover, .btn-register:hover{
+    background:#d68b2c;
+    color:white;
+    box-shadow: 0 0 20px 5px #d68b2c;
+}
